@@ -10,7 +10,7 @@
     <title>Photos | Divinly Appointed</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
@@ -18,11 +18,11 @@
 
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Divinely Appointed</a>
+      <a class="navbar-brand" href="#">Divinly Appointed</a>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
@@ -33,10 +33,10 @@
             <a class="nav-link" href="../sermons/index.html">Sermons</a>
           </li>
           <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Missions</a>
+              <a class="nav-link dropdown-toggle disabled" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Missions</a>
               <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item disabled" href="../mission-trip/index.html">Mission Trip</a>
-                <a class="dropdown-item disabled" href="../camp-meetings/index.html">Youth Camp-meetings</a>
+                <a class="dropdown-item" href="../mission-trip/index.html">Mission Trip</a>
+                <a class="dropdown-item" href="../camp-meetings/index.html">Youth Camp-meetings</a>
               </div>
             </li>
           <li class="nav-item active">
@@ -46,7 +46,7 @@
             <a class="nav-link" href="../about/index.html">About Us</a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
+        <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" disabled>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit" disabled>Search</button>
         </form>
@@ -55,8 +55,15 @@
 
     <section class="jumbotron text-center">
       <div class="container">
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+          <strong>Sorry!</strong> I'm still in DR and there's not good wifi to upload the pictures. Come back in a couple of week and everything should be up.
+        </div>
         <h1 class="jumbotron-heading">Photos</h1>
-        <p class="lead text-muted">[try to find somthing in the bible or egw]</p>
+        <q class="lead text-muted">Let all that is beautiful in our earthly home remind us of the crystal river and green fields, the waving trees and the living fountains, the shining city and the white-robed singers, of our heavenly home--that world of beauty which no artist can picture, no mortal tongue describe. "Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love Him."</q>
+        <p class="text-muted" style="text-align: right;"><small>&ndash; The Adventist Home, p. 545</small></p>
       </div>
     </section>
 
@@ -78,16 +85,13 @@
             <p class="card-footer">Dominican Republic 2016<a class="float-right btn btn-primary disabled" href="2016/index.html" role="button">More &raquo;</a></p>
           </div>
         </div>
-
+          <footer>
+            <a class="float-right btn btn-outline-secondary" href="#" role="button">Back to top</a>
+            <p>&copy; Matt Woodward &amp; Devinely Appointed Ministries &middot; powered by <img height="17px" src="../img/bootstrap-solid.svg"></p>
+          </footer>
       </div>
     </div>
 
-    <footer class="text-muted">
-      <div class="container">
-        <a class="float-right btn btn-outline-secondary" href="#" role="button">Back to top</a>
-        <p>&copy; Matt Woodward &amp; Devinely Appointed Ministries</p>
-      </div>
-    </footer>
 
     <!--When uploading make these js libs cdn instead of local-->
     <!-- Bootstrap core JavaScript
