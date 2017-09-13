@@ -46,9 +46,20 @@
         </ul>
         <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,fr', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, gaTrack: true, gaId: 'UA-106407883-1'}, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, gaTrack: true, gaId: 'UA-106407883-1'}, 'google_translate_element');
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script>
+          function changeGoogleStyles() {
+if(($goog = $('.goog-te-menu-frame').contents().find('body')).length) {
+var stylesHtml = '
+';
+$goog.prepend(stylesHtml);
+} else {
+setTimeout(changeGoogleStyles, 50);
+}
+}
+changeGoogleStyles();</script>
         <!--<form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search" disabled>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit" disabled>Search</button>
