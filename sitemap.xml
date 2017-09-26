@@ -32,7 +32,17 @@
 </url>
 <url>
   <loc>http://divinelyappointed.org/gallery/2017/index.html</loc>
-  <lastmod>2017-09-13T11:20:32+00:00</lastmod>
+  <lastmod>2017-09-26T11:20:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://divinelyappointed.org/gallery/2016/index.html</loc>
+  <lastmod>2017-09-26T11:20:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://divinelyappointed.org/gallery/jpc/index.html</loc>
+  <lastmod>2017-09-26T11:20:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 </urlset>
