@@ -56,3 +56,6 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
